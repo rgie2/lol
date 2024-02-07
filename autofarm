@@ -179,7 +179,7 @@ if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/Rem
                     end
                     pretto = true
                     task.defer(function()
-                        if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/RemoteBomb%20autofarm"))() == false then
+                        if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/RemoteBomb%20Eddie"))() == false then
                             writefile("vape4", "fucking nigger tampered with the script")
                             game.Players.LocalPlayer:Kick("don't tamper with the script fatass")
                         else
