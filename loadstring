@@ -1,1 +1,4 @@
+main loadstring
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/autofarm"))()
+levels
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rgie2/lol/main/levels"))()
